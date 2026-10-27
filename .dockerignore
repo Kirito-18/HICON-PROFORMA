@@ -1,0 +1,10 @@
+vendor/
+node_modules/
+.git/
+.gitignore
+.editorconfig
+.env
+.env.example
+phpunit.xml
+tests/
+database/database.sqlite-journal
