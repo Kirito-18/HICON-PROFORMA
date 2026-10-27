@@ -2,6 +2,7 @@ FROM richarvey/nginx-php-fpm:latest
 
 # Copiar el código del proyecto al directorio web de Nginx
 COPY . /var/www/html
+COPY conf/nginx/nginx-site.conf /etc/nginx/sites-available/default.conf
 
 # Configuración del servidor web Nginx y PHP
 ENV WEBROOT /var/www/html/public
